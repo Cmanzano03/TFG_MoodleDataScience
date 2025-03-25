@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Archivos de Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Archivos temporales de Spark
+.metastore_db/
+derby.log
+
+# Directorios temporales de ejecución
+tmp/
+
